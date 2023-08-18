@@ -1,10 +1,6 @@
 # File-categorizer
 Organizing and categorizing files based on their extensions using c++.
 
-Absolutely, here's a description based on the provided code's features:
-
----
-
 **Platform Requirements:**
 -  Platform: Cross-platform ( macOS, Linux)
 
@@ -23,12 +19,8 @@ Absolutely, here's a description based on the provided code's features:
 ### Description:
 The "FileCategorizer" command-line tool offers a powerful way to organize files within a directory by sorting them into categorized folders based on their extensions. Built with an object-oriented approach, this tool simplifies the process of decluttering your file system and enhancing file management.
 
-Users provide a directory path through the command line. The tool then analyzes the files within the directory, extracting their extensions and associating them with predefined categories such as "Documents," "Audio," "Video," "Developer," and more. Files that match recognized extensions are moved to their respective categorized folders, streamlining the organization process.
+Users provide a directory path through the command line. The tool then analyzes the files within the directory, extracting their extensions and associating them with predefined categories such as "Documents," "Audio," "Video," "Developer," and more. Files that match recognized extensions are moved to their respective categorized folders.
 
 The code employs C++ for efficient file manipulation and organization, utilizing the Standard C++ Library for core functionality. Directory traversal is managed using the `dirent.h` library. The tool's modular structure allows for extensibility, making it easy to add new categories or modify existing ones.
 
-The resulting organized directory not only improves file accessibility but also enhances overall system hygiene. By automating the categorization process, "FileCategorizer" minimizes manual effort and reduces the chances of cluttered or disorganized file systems.
 
----
-
-Feel free to adapt this description to accurately represent the features and purpose of your provided code. This should provide a clear understanding of how your command-line tool functions and the benefits it offers to users.
